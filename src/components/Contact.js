@@ -38,9 +38,11 @@ export const Contact = () => {
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
+      setStatus({ success: true, message: 'Message sent successfully' });
+      // Redirect the message to your email here
+      window.location.href = "mailto:caminantegeral@protonmail.com";
     } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
+      setStatus({ success: false, message: 'Something went wrong, please try again later.' });
     }
   };
 

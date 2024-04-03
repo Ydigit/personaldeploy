@@ -21,8 +21,7 @@ export const Footer = () => {
             <a href="https://www.linkedin.com/in/leonardo-gon%C3%A7alves-0869631b1/">
               <img src={navIcon1} alt="Icon" />
             </a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://github.com/Ydigit"><img src={navIcon2} alt="Icon" /></a>
             </div>
           </Col>
         </Row>
